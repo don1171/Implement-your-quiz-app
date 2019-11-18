@@ -2,7 +2,8 @@
     box-sizing: border-box;
     list-style: none;
     text-align: center;
-  }
+}
+
 body {
     background: #2c3531;
     background-repeat: no-repeat;
@@ -12,8 +13,9 @@ body {
     font-size: 20px;
     margin: 0;
     line-height: 1.5;
-  }
-.css-Start-Button {
+}
+
+.css-Button {
     margin-top:10px;
     height: auto;
     font-size: 18px;
@@ -26,5 +28,13 @@ body {
     margin-bottom: 0;
     border-radius:3px;
     padding: 10px 20px;
-  }
-  
+}
+
+
+/*For Tablets*/
+@media only screen and (min-width: 768px) {    
+}
+
+/* For laptops and desktops */
+@media only screen and (min-width: 800px) {    
+}
